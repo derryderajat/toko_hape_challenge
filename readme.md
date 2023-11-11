@@ -6,12 +6,12 @@ By : Muhamad Fadhil Surya Putra
 
 Dialkisahkan teman-teman diminta untuk membuat sebuah applikasi untuk tokohapea dalam pengembangan awalnya teman teman diminta untuk mengembangkan fiturnya sbb : 
 
-- [ ] Buat table user dengan field
-  - [ ] Nama
-  - [ ] Password
-  - [ ] Profile_picture
-  - [ ] email
-  - [ ] Address
+- [x] Buat table user dengan field
+  - [x] Nama
+  - [x] Password
+  - [x] Profile_picture
+  - [x] email
+  - [x] Address
 - [ ] Buat table transaction dengan field
   - [ ] User_id (fk ke table user)
   - [ ] amount int
