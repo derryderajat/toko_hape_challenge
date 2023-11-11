@@ -18,8 +18,8 @@ model Users {
   id         String       @id @default(uuid())
   name       String
   email      String    @unique
-  password   String
-  profile_picture String 
+  password   String?
+  profile_picture String? 
 
   created_at DateTime  @default(now())
   updated_at DateTime  @updatedAt
@@ -27,10 +27,7 @@ model Users {
 
   transactions Transactions[]
 }
-// User_id (fk ke table user)
-// amount int
-// Payment_link berisi string buffer dari QR
-// Is_paid (default false)
+
 model Transactions{
   id         String       @id @default(uuid())
   user_id String
